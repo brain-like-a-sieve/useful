@@ -1,0 +1,4 @@
+$today = new DateTime(date('Y-m-d'));
+$dob = new DateTime('1984-01-01');
+$diff = $dob->diff($today);
+echo $diff->format('%Y');
